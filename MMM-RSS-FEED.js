@@ -23,8 +23,6 @@ Module.register("MMM-RSS-FEED",{
 				var entries = result.feed.entries;
 				for(var i = 0; i < entries.length; i++){
 				var entry = entries[i];
-				console.dir(entry);
-				console.log(entry);
 				wrapper.innerHTML = entry.title;
 				}
 			}
